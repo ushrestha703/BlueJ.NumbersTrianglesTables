@@ -2,7 +2,12 @@
 
 public class TableUtilities {
     public static String getSmallMultiplicationTable() {
-      String finaltable = "";
+        int a = 5;
+        String finaltable = getMultiplicationTable(a);
+        return finaltable;
+        
+        
+        /*String finaltable = "";
         for(int i=1; i <= 5; i++){
             for(int j=1; j <= 5; j++) {
                 int multi = i * j;
@@ -22,11 +27,15 @@ public class TableUtilities {
             finaltable += "\n" ;
         }
         return finaltable;        
-            
+         */   
     }
 
     public static String getLargeMultiplicationTable() {
-        String finaltable1 = "";
+        int b = 10;
+        String finaltable1 = getMultiplicationTable(b);
+        return finaltable1;
+        
+        /*String finaltable1 = "";
         for(int i=1; i <= 10; i++){
             for(int j=1; j <= 10; j++) {
                 int multi = i * j;
@@ -46,7 +55,7 @@ public class TableUtilities {
             finaltable1 += "\n" ;
         }
         return finaltable1;        
-          
+         */ 
     }
 
     public static String getMultiplicationTable(int tableSize) {
